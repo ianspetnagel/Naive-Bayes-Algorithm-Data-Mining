@@ -21,34 +21,28 @@ Initially, I experienced issues in compliing because the dataset did not include
 
 <img width="918" alt="err1" src="https://github.com/ianspetnagel/Naive-Bayes-Algorithm-Data-Mining/assets/62821052/e4cc4ecd-a69d-4192-92d1-7493a693c6eb">
 
-This was happening becasue it was still failing to recognize the 'species' column in the dataset. I chnaged the code to index the fifth column of the dataframe and filter the rows by value in the 'species' column the code from this:
+This was happening becasue it was still failing to recognize the 'species' column in the dataset. I chnaged the code to index the fifth column of the dataframe and filter the rows by value in the 'species' column.
 
-#---assemble the data by categories i.e., classes
-# df1 = df2[df2 == 1]
-# print(df1)
-# df2 = dfrandom[dfrandom['species'] == 2]
-# print(df2)
-# df3 = dfrandom[dfrandom['species'] == 3]
-# print(df3)
-
-To this:
-
-# ---assemble the data by categories i.e., classes
-df1 = dfrandom[dfrandom.iloc[:, 4] == 1]
-print(df1)
-df2 = dfrandom[dfrandom.iloc[:, 4] == 2]
-print(df2)
-df3 = dfrandom[dfrandom.iloc[:, 4] == 3]
-print(df3)
-
-
-
+*Previous code:*
 <pre>
-```js
-function myFunction () {
-   return 42;
-}
-```
+#---assemble the data by categories i.e., classes
+  df1 = df2[df2 == 1]
+  print(df1)
+  df2 = dfrandom[dfrandom['species'] == 2]
+  print(df2)
+  df3 = dfrandom[dfrandom['species'] == 3]
+  print(df3)   
+</pre>
+
+*New code:*
+<pre>
+# ---assemble the data by categories i.e., classes
+  df1 = dfrandom[dfrandom.iloc[:, 4] == 1]
+  print(df1)
+  df2 = dfrandom[dfrandom.iloc[:, 4] == 2]
+  print(df2)
+  df3 = dfrandom[dfrandom.iloc[:, 4] == 3]
+  print(df3)
 </pre>
 
 
