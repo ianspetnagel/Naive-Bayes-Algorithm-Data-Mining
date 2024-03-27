@@ -45,6 +45,9 @@ This was happening becasue it was still failing to recognize the 'species' colum
   print(df3)
 </pre>
 
+I ended up being able to classfiy the seed, but was experiencing a 0.0 classification accuracy. This was likely caused due to errors in the dataset, model complexity, or feature engineering. 
+
+<img width="659" alt="outwzero" src="https://github.com/ianspetnagel/Naive-Bayes-Algorithm-Data-Mining/assets/62821052/aabd43f7-be2f-41db-8502-79f3a0fbd517">
 
 
 
