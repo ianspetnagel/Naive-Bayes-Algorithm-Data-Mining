@@ -1,5 +1,7 @@
 # Naive-Bayes-Algorithm-Data-Mining
 
+DM 2
+
 For this project I am Data Mining using the Naïve Bayes algorithm for two different datasets. This is a probabilistic classifier assuming independence between features, The algorthm will calculate the probability of a certain input belonging to a specific class based on its features and training data. Generally, the Naïve Bayes algorithm is pretty efficient and accurate. 
 
 *Please reach out to me on LinkedIn if you would like the datasets sent to you*
